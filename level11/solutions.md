@@ -11,8 +11,11 @@ Safely transmits binary daya through text-based protocols (HTTP, email...)
 **Recognize Base64**: 
 
 Character set -> Only contains `A-Z`, `a-z`, `0-9`, `+`, `/`, `=`.
+
 Padding -> Typically ends with `=` or `==`
-Lenght -> Always multiple of 4 characters
+
+Lenght -> Always multiple of 4 characters.
+
 No special characters -> `!`, `@`, `#` etc...
 
 ## Base64 command
