@@ -31,7 +31,7 @@ base64 -d encoded_file.txt
 # -d, --decode: Decode data instead of encoding
 ```
 
-##Common uses
+## Common uses
 
 **Data Exfiltration**: Attackers use Base64 to hide malicious payloads
 
