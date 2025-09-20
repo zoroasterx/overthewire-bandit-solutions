@@ -6,11 +6,12 @@
 
 **Compression Formats and Commands**: 
 
-Format	Extension	Decompression Command	Notes
-gzip	.gz	gunzip archivo.gz	Original file is deleted after decompression
-bzip2	.bz2	bunzip2 archivo.bz2	Original file is deleted
-tar	.tar	tar xf archivo.tar	Extracts contents, keeps original
-zip	.zip	unzip archivo.zip	Original file is kept
+| **Format** | **Extension** | **Decompression Command** | **Notes** |
+|------------|---------------|---------------------------|-----------|
+| **gzip**   | `.gz`         | `gunzip archivo.gz`       | Original file is deleted after decompression |
+| **bzip2**  | `.bz2`        | `bunzip2 archivo.bz2`     | Original file is deleted |
+| **tar**    | `.tar`        | `tar xf archivo.tar`      | Extracts contents, keeps original |
+| **zip**    | `.zip`        | `unzip archivo.zip`       | Original file is kept |
 
 **Hexdump conversion**: Text representation of binary data
 
@@ -40,6 +41,7 @@ Add proper extensions to make command work smoothly
   ```bash
   gunzip -S "" file_without_extension
 ```
+
 ## Commands used (Workflow for decompression)
 
 1 -> Use `file` to identify actual type -> `file data1`
