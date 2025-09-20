@@ -37,10 +37,8 @@ Add proper extensions to make command work smoothly
 
 - `file` command reads the **magic number** (file signature) not the extension.
 
-- You can decompress without proper extensions, but it requires extra flags:
-  ```bash
-  gunzip -S "" file_without_extension
-```
+- You can decompress without proper extensions, but it requires extra flags
+
 
 ## Commands used (Workflow for decompression)
 
@@ -48,6 +46,6 @@ Add proper extensions to make command work smoothly
 
 2 -> Rename with proper extension for clarity and smooth workflow -> `mv data1 data1.gz`
 
-3 -> Use standart decompression command -> `gunzip data1.gz`
+3 -> Use standard decompression command -> `gunzip data1.gz`
 
-4 -> Repeat until finding the oringinal content 
+4 -> Repeat until finding the original content 
